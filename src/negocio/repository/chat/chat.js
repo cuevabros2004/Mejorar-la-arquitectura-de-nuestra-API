@@ -9,6 +9,7 @@ export class chat {
 
 
     async guardar(chat) {
+
         try {
             const resul = await this.#dao.save(chat.datos())
             return resul

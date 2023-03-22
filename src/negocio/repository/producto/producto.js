@@ -11,12 +11,14 @@ export   class product {
 
     
     async guardarProducto(producto) {
+   
         try {
             const resul = await this.#dao.save(producto.datos())
             return resul
         } catch(error) {
             return error
         }
+        
     }
 
     async listarProducto() {

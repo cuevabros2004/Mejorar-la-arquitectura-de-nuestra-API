@@ -5,6 +5,7 @@ import { Chats } from '../repository/chat/index.js';
 class ChatService {
     
     async grabarChat(objeto) {
+        console.log(objeto)
         try {
             const chat = new Chat(objeto);
             const registroChat = await Chats.guardar(chat)

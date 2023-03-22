@@ -22,7 +22,6 @@ class ContenedorDb{
             return 'Id del objeto guardado: ' + objeto
         }
         catch(error){
-            console.log(error)
            return error           
         } 
 

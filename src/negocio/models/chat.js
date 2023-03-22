@@ -13,7 +13,7 @@ export default class Chat {
         this.#id = id
         this.#author = author
         this.#fecha = fecha
-        this.#text
+        this.#text = text
 
     }
 

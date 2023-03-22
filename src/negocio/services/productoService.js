@@ -6,7 +6,7 @@ class ProductoServicio{
 
     async grabarProducto(producto){
         const productos = new Productos(producto);        
-        const registroNuevoProducto = await Products.guardarProducto(producto)
+        const registroNuevoProducto = await Products.guardarProducto(productos)
         return registroNuevoProducto
     }
 
